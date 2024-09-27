@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: grey;
+}
+.top{
+    width: 80%;
+    background-color: #fff;
+    /*padding: 10px;*/
+    margin: 0 auto;
+}
+nav{
+    background-color: black;
+    height: 70px;
+}
+nav ul{
+    text-align: right;
+    padding: 25px;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+.bike{
+    text-align: center;
+    padding-top: 35px;
+}
+.bike button{
+    padding: 10px 15px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.bike button:hover{
+    background-color:#8f746c;
+    color: white;
+}
+.bk{
+    background-color: coral;
+    border-radius: 5px;
+}
